@@ -253,6 +253,8 @@ end
 
 
 function Functions.createStructure(parent, contents, repo, token, pullButton)
+	-- TODO: Add script and directory name matching (Parent scripts to their parent script)
+	
 	for _, item in pairs(contents) do
 		if item.type == "dir" then
 			print("dir")
